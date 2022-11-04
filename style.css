@@ -1,0 +1,24 @@
+
+body{
+    background: url(fon.jpg);
+}
+div{
+    margin-left:40%;
+    text-align: left;
+    margin-top: 15%;
+}
+h1{
+ font-family:serif;
+ font-style: italic;
+ color:blue;
+}
+
+label{
+    display:inline-block;
+    width:130px;
+}
+
+input:focus, input:focus-visible{
+    border: 2px solid blue;
+    outline: 0;
+}

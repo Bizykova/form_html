@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>input forms</h1>
+<form action="#" name="myForm">
+    <div>
+        <table>
+
+        </table>
+        <p>
+            <label for="name"> Введите имя </label>
+            <input id="name" type="text " placeholder="Имя" required autofocus>
+        </p>
+        <p>
+            <label for="family"> Введите фамилию </label>
+            <input id="family" type="text" placeholder="Фамилия" required>
+        </p>
+        <p>
+            <label for="patronymic"> Введите отчество </label>
+            <input id="patronymic" type="text" placeholder="Oтчество" required>
+        </p>
+        <p>
+            <label for="email"> Введите email </label>
+            <input id="email" type="email" placeholder="email" required>
+        </p>
+
+        <p>
+            <label for="pol"> Ваш пол </label>
+            <input id="pol" type="radio" name="pol"> женский
+            <input type="radio" name="pol"> мужской
+        </p>
+        <p>
+            <label for="flag"> Соглашение </label>
+        <p>
+            <input id="flag" type="checkbox" name="sub"> Согласны с условием сайта
+        </p>
+        <p>
+            <input type="checkbox" name="sub"> Вы подтверждаете своё согласие на обработку данных
+        </p>
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+            <input type="submit" value="Очистить" type="reset">
+        </p>
+    </div>
+
+</form>
+</body>
+</html>
